@@ -50,9 +50,10 @@ const Login = () => (
 class OktaSignInWidget extends Component {
   componentDidMount() {
     this.widget = new OktaSignIn({
-      baseUrl: 'https://cms-test.okta.com',
+      baseUrl: 'https://test.idp.idm.cms.gov',
       authParams: {
         pkce: true,
+        issuer: 'https://test.idp.idm.cms.gov/oauth2/aus2e96etlbFPnBHt297',
         responseMode: 'query',
       },
       el: '#sign-in-widget',
@@ -126,7 +127,7 @@ const AuthWrapper = ({ children }) => {
   };
   return (
     <Security
-      issuer="https://cms-test.okta.com/oauth2/aus2e96etlbFPnBHt297"
+      issuer="https://test.idp.idm.cms.gov/oauth2/aus2e96etlbFPnBHt297"
       clientId="0oa2e913coDQeG19S297"
       redirectUri="http://localhost:3000/implicit/callback"
       onAuthRequired={handleAuthRequiredRedirect}
