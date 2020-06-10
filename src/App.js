@@ -14,6 +14,8 @@ import {
 } from '@okta/okta-react';
 import OktaSignIn from '@okta/okta-signin-widget/dist/js/okta-sign-in.min';
 
+import ReactQuillPage from './ReactQuill';
+
 import './App.css';
 
 function App() {
@@ -26,6 +28,7 @@ function App() {
             <Route path="/login" component={Login} />
             <Route path="/unprotected/:id" component={Unprotected} />
             <SecureRoute path="/protected/:id" component={Protected} />
+            <Route path="/react-quill" component={ReactQuillPage} />
             <Route path="/implicit/callback" component={LoginCallback} />
           </Switch>
         </AuthWrapper>
