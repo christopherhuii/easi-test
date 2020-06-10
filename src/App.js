@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 
 import ReactQuillPage from './ReactQuill';
 import DraftJsPage from './DraftJs';
@@ -10,14 +10,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter basename="/">
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/react-quill" component={ReactQuillPage} />
           <Route path="/draftjs" component={DraftJsPage} />
           <Route path="/tinymce" component={TinyMCEPage} />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
