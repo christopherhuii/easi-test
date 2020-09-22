@@ -5,7 +5,7 @@ const TablePage = () => {
     <div>
 
     <h1>
-      This is a exammple page comparing two tables to understand whether they read different to assistive technology users.
+      This is a example page comparing two tables to understand whether they read different to assistive technology users.
     </h1>
 
     <h2>
@@ -28,11 +28,6 @@ const TablePage = () => {
             <th scope="row">Beth</th>
             <td>8</td>
             <td>January 14</td>
-          </tr>
-          <tr>
-            <th scope="row">Jennifer</th>
-            <td>12</td>
-            <td>January 26</td>
           </tr>
       </tbody>
     </table>
