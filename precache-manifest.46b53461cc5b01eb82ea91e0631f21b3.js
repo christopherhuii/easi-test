@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae9427cd47b5a54045647204dac7a018",
+    "revision": "6fbff119cc7cd800e312a077a0be18ab",
     "url": "/easi-test/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/easi-test/static/css/2.8c77f5cb.chunk.css"
   },
   {
-    "revision": "7d38088c16197ae40bc5",
+    "revision": "6106236b859ed775fc74",
     "url": "/easi-test/static/css/main.91a87750.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/easi-test/static/js/2.cd218fb5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7d38088c16197ae40bc5",
-    "url": "/easi-test/static/js/main.6e297b97.chunk.js"
+    "revision": "6106236b859ed775fc74",
+    "url": "/easi-test/static/js/main.3f5a066e.chunk.js"
   },
   {
     "revision": "cb59b777deda46d4cd96",
