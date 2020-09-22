@@ -4,6 +4,7 @@ import { HashRouter, Switch, Route } from 'react-router-dom';
 import ReactQuillPage from './ReactQuill';
 import DraftJsPage from './DraftJs';
 import TinyMCEPage from './TinyMCE';
+import TablePage from './TablePage';
 
 import './App.css';
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/react-quill" component={ReactQuillPage} />
           <Route path="/draftjs" component={DraftJsPage} />
           <Route path="/tinymce" component={TinyMCEPage} />
+          <Route path="/table-test" component={TablePage} />
         </Switch>
       </HashRouter>
     </div>
