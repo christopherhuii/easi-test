@@ -8,11 +8,8 @@ const TablePage = () => {
       This is a example page comparing two tables to understand whether they read different to assistive technology users.
     </h1>
 
-    <h2>
-      Table 1
-    </h2>
     <table>
-      <caption>Intake Requests</caption>
+      <caption>Intake Requests (Example 1)</caption>
         <tbody>
           <tr>
             <th scope="col">Submission date</th>
@@ -38,11 +35,9 @@ const TablePage = () => {
       </tbody>
     </table>
 
-    <h2>
-      Table 2
-    </h2>
+
     <table>
-      <caption>Shelly's Daughters</caption>
+      <caption>Intake Requests (Example 2)</caption>
         <tbody>
         <tr>
             <th scope="col">Submission date</th>
